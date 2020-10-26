@@ -11,6 +11,9 @@ Acude a un terminal y prueba el siguiente comando:
 Si el resultado es que no existe ese comando, es que no lo tienes instalado.
 
 #### Windows
+
+Instala [GPG4Win](https://gpg4win.org/download.html).
+
 #### Linux
 
 En muchas distribuciones viene instalado por defecto, si no es el caso, deberás buscar en Internet cómo instalarlo para tu distribución en concreto.
