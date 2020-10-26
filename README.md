@@ -108,6 +108,13 @@ Con el primer comando le dices a GitHub que tus commits y tags siempre deben est
 
 Con el segundo comando le decimos a github que use el comando `gpg` para firmar. Esto puede variar según el sistema operativo.
 
+En Windows 10 (powershell), el parámetro gpg.program debe ser la ruta completa al comando `gpg`.
+
+Si no sabes la ruta completa, ejecuta en PowerShell: `Get-Command gpg | Select Source`,
+e introduce esta ruta entre comillas dobles:
+
+`git config --global gpg.program "C:\Program Files (x86)\GnuPG\bin\gpg.exe"`
+
 ## 4. Firma tus commits y tags
 
 A partir de ahora, siempre que quieras realizar un commit firmado, añade -S al comando commit.
